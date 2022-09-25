@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link href="./style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+		defer></script>
+	
+	
+	<title>Volkswagen e-Golf</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/">e-Golf</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContainer"
+				aria-controls="navbarContainer" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarContainer">
+				<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Find Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Our Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+			</div>
+		</div>
+	</nav>
+
+	<div id="mainImageContainer">
+		<img src="./images/mainImage.jpeg" alt="Main Image of e-Golf" id="mainImage">
+		<h1 id="mainImageText">It's Electric.</h1>
+	</div>
+
+	<div id="headlineContainer" data-aos="fade-up">
+		<h1>The new Volkswagen e-Golf</h1>
+		<h3>The e-Golf is Volkswagen’s first fully electric vehicle for the U.S. market</h2>
+	</div>
+
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+				aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="./images/carousel1.webp" class="d-block w-100 carousel-image">
+
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>New for 2016</h1>
+						<p>The new 2016 e-Golf SE model lowers the cost of entry to e-mobility</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/carousel2.jpeg" class="d-block w-100 carousel-image">
+
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Features Galore</h1>
+						<p>SoThe addition of a new infotainment system for 2016 provides a comprehensive suite of
+							connectivity features</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/carousel3.webp" class="d-block w-100 carousel-image">
+
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Security & Service</h1>
+						<p>Consumers have the ability to access the Car-Net Security & Service suite through the
+							innovative online Customer Web Portal</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<div id="featuresContainer">
+		<div class="feature feature1" data-aos="slide-left">
+			<div class="featureText">
+				<h1>Instantly recognisable</h1>
+				<p>The e‑Golf retains the classic styling of the Golf, with its own electric twist. LED headlights,
+					C-shaped running lights and signature blue flash across the front grille.</p>
+			</div>
+			<img class="featureImage" src="./images/featureImage1.jpg" alt="Feature Image">
+		</div>
+		<div class="feature feature2" data-aos="slide-right">
+			<div class="featureText">
+				<h1>Comfortably roomy</h1>
+				<p>The surprisingly spacious interior of the e‑Golf combines style, practicality and comfort with unique
+					touches like the electric blue stitching on the leather-wrapped steering wheel.</p>
+			</div>
+			<img class="featureImage" src="./images/featureImage2.jpg" alt="Feature Image">
+		</div>
+		<div class="feature feature3" data-aos="slide-left">
+			<div class="featureText">
+				<h1>Less energy, more power</h1>
+				<p>The e‑Golf's highly efficient LED headlights use far less energy than conventional headlights, with
+					no compromise on brightness.</p>
+			</div>
+			<img class="featureImage" src="./images/featureImage3.webp" alt="Feature Image">
+		</div>
+	</div>
+
+	<div class="formContainer">
+
+		<form id="contactForm">
+			<div id="formHeader">
+				<h1>Be the first to hear more.</h1>
+				<h1> Join today.</h1>
+			</div>
+
+			<div class="formElement">
+				<label for="nameInput">Name:</label>
+				<input type="text" id="nameInput" name="nameInput" />
+			</div>
+			<div class="formElement">
+				<label for="emailInput">Email:</label>
+				<input type="email" id="emailInput" name="emailInput">
+			</div>
+			<div class="formElement">
+				<label for="consent">By clicking this, you agree to email updates from us. Opt out at any time.</label>
+				<input type="checkbox" id="consent">
+			</div>
+			<input type="submit" class="formButton" value="Sign Up">
+
+		</form>
+	</div>
+
+	<div id="footerLinksContainer">
+		<ul id="footerLinksList">
+			<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Find Us</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Our Products</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+		</ul>
+	</div>
+	<script src="https://unpkg.com/aos@next/dist/aos.js" ></script>
+	<script>
+		AOS.init({
+			offset: 240,
+			duration: 1000,
+			once: true
+		})
+	</script>
+</body>
+
+</html>
